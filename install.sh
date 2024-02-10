@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Remove HY2 if it's installed (optional)
-bash <(curl -fsSL https://raw.githubusercontent.com/xyazzrany/hy2-vps-install/main/remove.sh/)
+bash <(curl -fsSL https://raw.githubusercontent.com/xyazzrany/hy2-vps-install/main/remove.sh)
 
 # Install HY2
-bash <(curl -fsSL https://get.hy2.sh/)
+bash <(curl -fsSL https://get.hy2.sh)
 
 # Enable hysteria-server.service
 systemctl enable hysteria-server.service
