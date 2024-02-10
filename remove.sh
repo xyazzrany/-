@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Remove Apache2 packages and related files
-apt-get --purge remove apache2
-apt-get --purge remove apache2.2-common
-apt-get --purge remove apache2-doc
-apt-get --purge remove apache2-utils
+apt-get --purge remove apache2 -y
+apt-get --purge remove apache2.2-common -y
+apt-get --purge remove apache2-doc -y
+apt-get --purge remove apache2-utils -y
 
 # Auto-remove unused packages
 apt-get autoremove
