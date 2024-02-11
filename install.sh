@@ -15,9 +15,9 @@ listen: :8443 # Listening port
 
 # Using CA certificate
 #acme:
-#  domains:
-#    - a.com # Your domain name, needs to be resolved to server IP first
-#  email: test@sharklasers.com
+  domains:
+    -  # Your domain name, needs to be resolved to server IP first
+  email: 
 
 # Using self-signed certificate
 #tls:
